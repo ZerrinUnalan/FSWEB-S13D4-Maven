@@ -17,8 +17,6 @@ public class Player {
             this.healthPercentage = healthPercentage;
         }
     }
-
-
     public int healthRemaining() {
         return healthPercentage;
     }

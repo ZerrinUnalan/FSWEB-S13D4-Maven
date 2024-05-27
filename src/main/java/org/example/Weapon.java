@@ -16,7 +16,6 @@ public enum Weapon {
     public int getDamage() {
         return damage;
     }
-
     public double getAttackSpeed() {
         return attackSpeed;
     }

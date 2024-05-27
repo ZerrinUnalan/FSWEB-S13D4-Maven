@@ -32,7 +32,6 @@ public class Point {
     public double distance(Point another){
         return Math.sqrt((this.x - another.x)*(this.x - another.x) + (this.y - another.y)*(this.y - another.y));
     }
-
     public static void main(String[] args) {
         Point first = new Point(6, 5);
         Point second = new Point(3, 1);
